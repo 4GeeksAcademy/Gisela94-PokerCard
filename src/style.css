@@ -1,1 +1,43 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-color: green;
+}
+
+.card {
+  height: 350px;
+  width: 250px;
+  background-color: white;
+  border-radius: 5%;
+  margin: auto;
+  margin-top: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  color: black;
+  position: relative;
+}
+
+.contenedor-button {
+  padding-top: 15px;
+  text-align: center;
+}
+
+.suit {
+  font-size: 60px;
+  margin-top: 0;
+  position: absolute;
+  margin-left: 12px;
+}
+
+.number {
+  margin: auto;
+  font-size: 150px;
+}
+
+.suit-inverted {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 60px;
+  margin-right: 12px;
+  flex-direction: column-reverse;
+  flex-wrap: nowrap;
+  transform: rotate(180deg);
+}
